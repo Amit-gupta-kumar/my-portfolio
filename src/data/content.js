@@ -55,32 +55,35 @@ export const projects = [
     title: "Self-Balancing Robot",
     desc: "A two-wheeled robot that balances itself and responds to mobile-phone control, programmed for an Arduino Nano Every.",
     tags: ["Embedded C++", "Arduino"],
+    liveLink: "https://github.com/Amit-gupta-kumar/Two_Wheels_Self_Balancing_Robot_Using_Nano_Every/blob/main/README.md"
   },
   {
     icon: "◆",
     title: "Online Chat Application",
     desc: "A web-based chat system supporting both group and private conversations, built from scratch with HTML, CSS, and JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
+    liveLink: "",
   },
   {
     icon: "◷",
     title: "World Clock System ",
     desc: "A multi-time-zone world clock web app for tracking the time across several cities at a glance.",
     tags: ["JavaScript", "Web"],
-    liveLink: " https://amit-gupta-kumar.github.io/World_Clock_System/",
+    liveLink: "https://amit-gupta-kumar.github.io/World_Clock_System/",
   },
   {
     icon: "📱",
     title: "Guardian Connect",
     desc: "A neighborhood safety mapping application designed for ultra-fast incident reporting and real-time community alerts.",
     tags: ["Flutter", "Dart", "Firebase"],
+    liveLink: "",
   },
 ];
 
 export const skillGroups = [
   { title: "Languages", chips: ["Core Java", "OOP", "C / C++", "Dart"] },
   { title: "Web", chips: ["HTML5", "CSS", "JavaScript", "React"] },
-  { title: "Data", chips: ["SQL", "MySQL", "DBMS"] },
+  { title: "Data", chips: ["SQL", "MySQL", "DBMS", "MongoDB"] },
   {
     title: "Tools & QA",
     chips: ["Git / GitHub", "Firebase", "Flutter", "Vercel"],
