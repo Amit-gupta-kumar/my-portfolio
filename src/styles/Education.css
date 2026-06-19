@@ -1,0 +1,39 @@
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.edu-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items: baseline;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 16px;
+}
+.edu-item:last-child {
+  border-bottom: none;
+}
+.edu-degree {
+  font-weight: 700;
+  font-size: 15px;
+}
+.edu-school {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 3px;
+}
+.edu-score {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--cyan);
+  text-align: right;
+  white-space: nowrap;
+}
+.edu-year {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  text-align: right;
+  display: block;
+}

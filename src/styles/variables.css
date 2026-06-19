@@ -1,0 +1,14 @@
+:root {
+  --bg: #060810;
+  --bg-soft: #0a0e1a;
+  --surface: #0d1322;
+  --surface-2: #10182b;
+  --border: #1b2336;
+  --cyan: #1e6b3b;
+  --magenta: #753970;
+  --amber: #6b5432;
+  --text: #e9eefb;
+  --muted: #7c8aa8;
+  --mono: "JetBrains Mono", monospace;
+  --sans: "Inter", sans-serif;
+}

@@ -1,0 +1,46 @@
+.timeline {
+  border-left: 2px solid var(--border);
+  margin-left: 6px;
+}
+.tl-item {
+  position: relative;
+  padding: 0 0 36px 28px;
+}
+.tl-item:last-child {
+  padding-bottom: 0;
+}
+.tl-dot {
+  position: absolute;
+  left: -7px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--cyan);
+  box-shadow: 0 0 10px rgba(61, 246, 255, 0.6);
+}
+.tl-date {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--amber);
+  letter-spacing: 0.5px;
+}
+.tl-role {
+  font-weight: 700;
+  font-size: 16.5px;
+  margin: 5px 0 2px;
+  font-family: var(--mono);
+}
+.tl-company {
+  color: var(--cyan);
+  font-size: 13.5px;
+  margin-bottom: 8px;
+  font-family: var(--mono);
+}
+.tl-desc {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 620px;
+}

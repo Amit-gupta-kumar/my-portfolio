@@ -1,0 +1,10 @@
+.about-text {
+  font-size: 15.5px;
+  line-height: 1.9;
+  color: #cdd6ea;
+  max-width: 760px;
+}
+.about-text b {
+  color: var(--cyan);
+  font-weight: 600;
+}
