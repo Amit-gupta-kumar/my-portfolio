@@ -50,3 +50,33 @@
   gap: 6px;
   flex-wrap: wrap;
 }
+
+
+
+/* 1. Makes the hidden anchor tag fill the entire card boundary */
+.pcard .stretched-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* 2. Changes the pointer cursor automatically on hover for clickable cards */
+.pcard:has(.stretched-link) {
+  cursor: pointer;
+}
+
+/* 3. Initial styling for your arrow icon symbol */
+.pcard-head .project-arrow {
+  font-size: 18px;
+  color: var(--muted);
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* 4. animates the arrow icon when the overall parent card is hovered */
+.pcard:hover .project-arrow {
+  color: var(--cyan);
+  transform: translate(3px, -3px);
+}

@@ -63,11 +63,11 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
   },
   {
-    link: ""
     icon: "◷",
     title: "World Clock System ",
     desc: "A multi-time-zone world clock web app for tracking the time across several cities at a glance.",
     tags: ["JavaScript", "Web"],
+    liveLink: " https://amit-gupta-kumar.github.io/World_Clock_System/",
   },
   {
     icon: "📱",
